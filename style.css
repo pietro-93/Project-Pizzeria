@@ -1,0 +1,112 @@
+
+body {
+    background-image: url(img/background-pizza.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+    background-color: rgba(40,40,40,0.5);
+    border-radius: 100px;
+}
+
+header {
+    height: 200px;
+    background-image: url(img/logo-pizzeria.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-bottom: 40px;
+   
+}
+
+nav {
+    background-color: rgba(150,0,0,0.6);
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+    text-align: center;
+    padding: 5px 20px;
+}
+main {
+    height: 500px;
+    text-align: center;
+    position: relative;
+}
+
+footer {
+    height: 100px;
+    text-align: center;
+    font-family: 'Cabin', sans-serif;
+}
+
+h1 {
+    font-family: 'Knewave', cursive;
+    font-size: 80px;
+    color: whitesmoke;
+}
+p {
+    font-family: 'cabin', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    color: whitesmoke;
+    margin-bottom: 40px;
+
+}
+#prenota {
+    font-family: 'Cabin', sans-serif;
+    padding: 6px;
+    border: 2px solid white;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    background-color: yellow;
+    border-radius: 10px;
+}
+#prenota:hover {
+    background-color: red;
+    color: yellow;
+    border: 2px solid black;
+}
+.menu {
+    height: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-family:'Montserrat';
+    padding: 3 20px;
+}
+.menu:hover {
+    color: black;
+    background-color: whitesmoke;
+    transition: 0.5s;
+    border-radius: 10px;
+}
+@media screen and (max-width: 420px)
+.map {
+    margin-top: 320px;
+}
+
+.contact {
+    padding-top: 40px;
+}
+
+#footer {
+    padding-top: 14px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.linkF {
+    text-decoration: none;
+    color: yellow;
+}
+
+.linkF:hover {
+    color: red;
+}
